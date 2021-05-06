@@ -27,7 +27,7 @@ ggplot(golf_data, aes(length, club)) +
 # create your distance chart
 clubs <- data.frame(club = c(1,2,3,4,5,6,7,8,9,10,11)) # give it your clubs
 pred_model <- predict(length_by_club, newdata = clubs, se.fit = T, interval = "confidence", level = .95)
-pred_model
+print(pred_model)
 
 lengths <- as.data.frame(pred_model) # use your regression model
 colnames(lengths) <- c("Distance", "LowerCI", "UpperCI", "SE", "df", "resid")
