@@ -46,10 +46,10 @@ ggplot(lengths, aes(Club, round(Distance,0), fill = Club)) +
   scale_x_discrete(labels = labels) +
   geom_text(data = lengths, aes(label = round(LowerCI,0)), position = position_stack(vjust = .85)) +
   geom_text(data = lengths, aes(label = round(UpperCI,0)), position = position_stack(vjust = 1.15)) +
-  geom_hline(yintercept = 50., linetype="dotted", size = 0.5) +
-  geom_hline(yintercept = 100, linetype="dotted", size = 1) +
-  geom_hline(yintercept = 150, linetype="dotted", size = 0.5) +
-  geom_hline(yintercept = 200, linetype="dotted", size = 1) +
+  geom_hline(yintercept = 50., linetype="dotted", size = .5) +
+  geom_hline(yintercept = 100, linetype="dashed", size = .5) +
+  geom_hline(yintercept = 150, linetype="dotted", size = .5) +
+  geom_hline(yintercept = 200, linetype="dashed", size = .5) +
   ylim(0, 250) + # if you can drive over 250, you'll need to adjust this!
   labs(y = "Distance") +
   theme_bw() +
