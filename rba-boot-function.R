@@ -20,7 +20,7 @@ RBAc <- function(n,l,m,h,vh,auc,rxl,rxm,rxh,rxvh) {
 }
 
 # EXAMPLE USAGE
-# 4 category risk assessment tool (e.g., Risk Matrix 2000/s: (Thornton, 2007; Thornton et al., 2003))
+# 4 category risk assessment tool (e.g., Risk Matrix 2000/s: Thornton, 2007; Thornton et al., 2003)
 # sample n = 200, risk assessment auc = 0.68
 # risk assessment rates: low risk: .01 (1%); medium: .05 (5%); high: .15 (15%); very high: .35 (35%)
 # classifcations for sample: low risk: n = 10; medium: n = 70; high: n = 80; very high: n = 40
