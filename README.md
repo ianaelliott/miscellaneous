@@ -1,6 +1,6 @@
 # Miscellaneous
 
-### Files included in this repo:
+### Files included in this public repo:
 
 #### golf.R
 Code to create a golf "Auto Caddy". Feed in your estimated driving range distances with each club. Create a chart of your distances that you can carry around the course. Predict the club you need for any distance required (and vice versa).
